@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul,li{
+  list-style: none;
+}
+
+#wrap{
+  width: 100%;
+}
+
+#header-wrap{
+  
+  height: 70px;
+  padding: 10px 0 0 0;
+  background-color: rgba(12,90,76,0.9);
+  box-sizing: border-box;
+}
+
+#header-wrap > h1{
+  float: left;
+}
+
+#header-wrap > h1 > a > img{
+  padding-left: 200px;
+  padding-right: 40px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#header-wrap > #menu > ul > li{
+  display: inline-block;
+  position: relative;
+  
+  padding: 20px;
+  
+}
+
+#header-wrap > #menu > ul > li >a{
+  padding-right: 20px;
+  color: white;
+}
+
+main{
+  min-width: 1024px; /*최소 넓이*/
+}
+
+main article {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    width: 20%;
+    min-width: 300px;
+    height: 80%;
+    border-radius: .5em;
+    transform: translate3d(-50%, -50%, 0);
+    background-color: #FFF;
+    z-index: 2;
+}
+
+p {
+  font-size: 1.1em;
+  margin-top: 1.3em;
+}
+
+label {
+  font-size: 1.1em;
+  display: block;
+  margin-top: 1em;
+}
+
+input {
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+  height: 2.5em;
+  border: 1px solid #DDDDDD;
+  border-radius: .2em;
+}
+
+button {
+  margin-top: 1.3em;
+  width: 100%;
+  height: 2.5em;
+  color: #fff;
+  background-color: #0F7562;
+  border-radius: .2em;
+}
+
+button:hover {
+  background-color: #DDDDDD;
+}
+
+button:active {
+  color: #000;
+  background-color: #DDDDDD;
+}
+
+.decoration-left{
+  position: absolute;
+  top:34%;
+  width: 28vh;
+  height: 58vh;
+  right: 80vh;
+  background: url(../images/man.png) no-repeat 0 50%;
+  background-size: contain;
+  z-index: 1;
+}
+
+.decoration-right{
+  position: absolute;
+  top:34%;
+  width: 40vh;
+  height: 58vh;
+  left: 80vh;
+  background: url(../images/woman.png) no-repeat 0 50%;
+  background-size: contain;
+  z-index: 1;
+}
