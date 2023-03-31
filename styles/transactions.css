@@ -46,6 +46,12 @@ ul,li{
 
 main{
   min-width: 1024px; /*최소 넓이*/
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 4em);
+  background: url(../images/wave.svg) no-repeat 0 50%;
+  background-color: #0F7562;
+  background-size:cover;
 }
 
 main article {
@@ -60,6 +66,17 @@ main article {
     transform: translate3d(-50%, -50%, 0);
     background-color: #FFF;
     z-index: 2;
+}
+
+main article li {
+  font-size: 1.1em;
+  line-height: 1.9em;
+}
+
+
+article h2{
+  font-size: 2em;
+  margin-bottom: 0.5em;
 }
 
 p {
